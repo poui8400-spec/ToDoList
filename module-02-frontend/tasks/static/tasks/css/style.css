@@ -1,0 +1,28 @@
+/* ── Typography ── */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ── Task list item hover ── */
+.list-group-item {
+  transition: background-color 0.15s ease;
+}
+.list-group-item:hover {
+  background-color: #f8f9ff;
+}
+
+/* ── Completed task strikethrough colour ── */
+.text-decoration-line-through {
+  color: #adb5bd !important;
+}
+
+/* ── Navbar brand ── */
+.navbar-brand {
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+}
+
+/* ── Footer ── */
+footer {
+  border-top: 1px solid #dee2e6;
+}
