@@ -31,6 +31,7 @@ for t in all_tasks:
 
 # ── SELECT with WHERE filter ──────────────────────
 # SQL: SELECT * FROM tasks_task WHERE completed = 0;
+
 active = Task.objects.filter(completed=False)
 print(f"\n[2] Active (incomplete) tasks: {active.count()}")
 
